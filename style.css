@@ -1,0 +1,302 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none; 
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*///////////////end of reset style sheet////////////////////*/
+
+
+
+.wrapper {
+    
+    max-width: 960px; 
+    width: 100%; 
+    margin: 0 auto;
+}
+
+header {
+    
+    background: black; 
+}
+
+header:after{
+    content: ""; 
+    display: block; 
+    clear: both;
+}
+
+#logo { background: url("logo.png") no-repeat; 
+        height: 70px; 
+        width: 280; 
+        float: left; 
+        text-indent: -100000px;
+        margin-top: 15px;
+    }
+
+header nav {
+    
+    color: #fff; 
+    text-decoration: none; 
+    font-family: fantasy;
+    float: right;
+    margin-top: 20px;
+}
+
+header nav h2{
+    
+    height: 0 ; 
+    text-indent: -100000; 
+}
+
+header nav a{
+    color: white;
+    margin-top: 30px; 
+    
+}
+
+header nav h2{ height : 0 ; text-indent: -1000000}
+
+header nav li {
+    margin: 20px;
+    float: left ; 
+}
+header nav span {color: goldenrod;
+                margin-left: 20px;}
+
+/*////////////////////////////*/
+
+
+
+
+
+#lead-banner video{
+    
+    width: 100%;
+    z-index: -1;
+    
+}
+
+#lead-banner {
+    max-height: 980px;
+    overflow: hidden;
+    position : relative; 
+}
+
+.banner-overlay {
+    
+    position: absolute; 
+    width: 100%;
+    top: 40%;
+    text-align: center;
+}
+
+.banner-title {
+    
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px; 
+}
+
+#lead-banner p {
+    
+    color: white; 
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+
+#video-content a {
+    
+    color: white;
+    font-size: 20px; 
+    margin-top: 20px
+}
+
+
+
+
+section {
+    
+    margin: 40px 0 60px ;
+}
+
+section li {
+    
+    width: 30% ; 
+    float: left; 
+    list-style: none; 
+    
+    border: 1px solid black;
+    padding: 5px;
+        
+
+}
+section li:nth-child(2){
+    
+    margin-left: 1%;
+        margin-right: 1%;
+}
+
+section:after {
+    
+    content: ""; 
+    display: block; 
+    clear: both;
+        
+}
+
+
+
+section {
+    
+    border-top: 1px solid gray; 
+    padding: 20px;
+}
+
+ h2 {
+    
+    background: green; 
+    color: white; 
+    width: 250px; 
+    text-align: center; 
+    position: relative; 
+    top: -38; 
+    margin: 0 auto; 
+    padding: 10px; 
+    border-left: 16px solid white ;
+    border-right: 16px solid white ;
+}
+
+#float{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+
+
+#clients img{
+    
+    float: left; 
+    width: 40%;
+    position: relative;
+    top: 20px
+}
+
+#clients blockquote{
+    
+    float: right; 
+    margin-top: 20;
+    text-align: center; 
+    line-height: 20px; 
+    background-color: antiquewhite;
+    padding: 20px; 
+    margin-left: 30px; 
+    position: relative;
+    top: -40px;
+    right: -20; 
+}
+
+
+
+
+
